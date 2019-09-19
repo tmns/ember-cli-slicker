@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = {
-  name: 'ember-cli-slick',
+  name: 'ember-cli-slicker',
   
   treeForVendor(defaultTree) {        
     var map = require("broccoli-stew").map;

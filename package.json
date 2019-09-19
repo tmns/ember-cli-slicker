@@ -1,5 +1,5 @@
 {
-  "name": "ember-cli-slick",
+  "name": "ember-cli-slicker",
   "version": "3.0.3",
   "description": "Slick Slider addon for Ember CLI.",
   "scripts": {
@@ -51,7 +51,7 @@
     "carousel",
     "responsive"
   ],
-  "repository": "https://github.com/laantorchaweb/ember-cli-slick",
+  "repository": "https://github.com/tmns/ember-cli-slicker",
   "license": "MIT",
   "author": "",
   "directories": {

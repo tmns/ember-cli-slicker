@@ -1,6 +1,6 @@
 # ember-cli-slick
 
-`ember-cli-slick` is a component that wraps the Slick Slider plugin functionality.
+`ember-cli-slicker` is a component that wraps the Slick Slider plugin functionality.
 
 Compatibility
 ------------------------------------------------------------------------------
@@ -13,7 +13,7 @@ Installation
 ------------------------------------------------------------------------------
 
 ```bash
-ember install ember-cli-slick
+ember install ember-cli-slicker
 ```
 
 ### slick-slider
