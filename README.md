@@ -1,4 +1,4 @@
-# ember-cli-slick
+# ember-cli-slicker
 
 `ember-cli-slicker` is a component that wraps the Slick Slider plugin functionality.
 
