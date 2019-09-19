@@ -12,11 +12,15 @@ module.exports = {
       destDir: 'slick',
       files: ['slick.js']
     })
-    
+
     browserVendorLib = map(browserVendorLib, (content) => `if (typeof FastBoot === 'undefined') { ${content} }`);
     
+		let nodes = [browserVendorLib];
+		if (defaultTree) {
+			nodes.unshift(defaultTree);
+		}
     
-    return new mergeTrees([defaultTree, browserVendorLib]);
+    return new mergeTrees(nodes);
   },
 
   included: function(app) {
