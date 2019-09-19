@@ -12,7 +12,7 @@ module.exports = {
       destDir: 'slick',
       files: ['slick.js']
     })
-
+    
     browserVendorLib = map(browserVendorLib, (content) => `if (typeof FastBoot === 'undefined') { ${content} }`);
     
 		let nodes = [browserVendorLib];
