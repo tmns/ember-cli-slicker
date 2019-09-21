@@ -4,8 +4,8 @@ module.exports = {
   name: 'ember-cli-slicker',
   
   treeForVendor(defaultTree) {        
-    var map = require("broccoli-stew").map;
-    var Funnel = require("broccoli-funnel");
+    const map = require("broccoli-stew").map;
+    const Funnel = require("broccoli-funnel");
     const mergeTrees = require('broccoli-merge-trees');
 
     let browserVendorLib = new Funnel('node_modules/slick-carousel/slick/', {
