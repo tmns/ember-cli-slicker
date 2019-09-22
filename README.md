@@ -1,6 +1,6 @@
 # ember-cli-slicker
 
-`ember-cli-slicker` is a *truly* Fastboot compatible version of [`ember-cli-slick`](https://github.com/laantorchaweb/ember-cli-slick). I emphasize *truly* here because I've noticed that typically when a package is edited to be Fastboot compatible the only things that's added is a check like so:
+`ember-cli-slicker` is a *truly* Fastboot compatible version of [`ember-cli-slick`](https://github.com/laantorchaweb/ember-cli-slick). I emphasize *truly* here because I've noticed that typically when a package is edited to be Fastboot compatible the only thing that's added is a check like so:
 
 ```js
 if (process.env.EMBER_CLI_FASTBOOT) {
@@ -12,7 +12,7 @@ if (process.env.EMBER_CLI_FASTBOOT) {
 
 Here though, Fastboot compatible means that it **WILL** be loaded into Fastboot but that it simply won't be evaluated until it reaches the browser. Perfect! This is accomplished by editing the package's `index.js` to create a separate *vendor tree* for the JS that you don't want to be evaluated in Fastboot. Aside from that you don't have to touch the actual package's JS at all.
 
-Thus, aside from `index.js`, all of the original code of `ember-cli-slick` is exactly the same! That means the API is also the same. The following sections of the README is in turn exactly the same as the original package's README at the time of writing. So you can ust drop it in and use it like you always have, but also enjoy the benefits of Server Side Rendering ^_^
+Thus, aside from `index.js`, all of the original code of `ember-cli-slick` is exactly the same! That means the API is also the same. In turn, the following sections of the README have been taken directly from the original package's README (at the time of writing). So you can just drop it in and use it like you always have, but also enjoy the benefits of Server Side Rendering ^_^
 
 Have fun!
 
@@ -156,8 +156,8 @@ This widget supports the full range of slick-slider configuration options. The f
 
 ## Repo
 
-* `git clone` this repository
-* `cd ember-cli-slick`
+* `git clone git@github.com:tmns/ember-cli-slicker.git`
+* `cd ember-cli-slicker`
 * `npm install`
 
 ### Linting
